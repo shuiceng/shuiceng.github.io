@@ -1,10 +1,24 @@
 # shuiceng_config.yml
 # github.com/shenjuexiao
-# 20261105
+# 20261114
 
+# github.com/pages-themes/slate
 # _config.yml
+
+# The title of your site
 title: SHUICENG · 税层
+# A short description of your site's purpose
 description: 我的税法学习笔记。
+
+# true or false (unquoted) to indicate whether to provide a download URL
+show_downloads: false
+# Your Google Analytics tracking ID
+google_analytics:
+
+remote_theme: pages-themes/architect@v0.2.0
+# add this line to the plugins list if you already have one
+plugins:
+- jekyll-remote-theme
 
 # 包含的文件（Jekyll 默认会忽略以下划线开头的文件，
 # 但这里列出的文件需要被处理）
